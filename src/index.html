@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="http://localhost:8080/" method="post">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
 
       <fieldset class="input-group">
         <legend>Personal information</legend>
@@ -24,6 +24,7 @@
             autocomplete="off"
           >
         </label>
+        
         <label class="input-row">
           Name:
           <input
@@ -35,6 +36,7 @@
             required
           >
         </label>
+
         <label class="input-row">
           How old are You?
           <input
@@ -45,10 +47,12 @@
             value="12"
           >
         </label>
+
         <label class="input-row">
           Full date of birth:
           <input name="birthday" type="date">
         </label>
+
         <label class="input-row">
           I accept the term of the agreement
           <input name="terms" type="checkbox">
@@ -67,6 +71,7 @@
             required
           >
         </label>
+
         <label class="input-row">
           Password:
           <input
@@ -85,14 +90,17 @@
           <label><input name="cats" type="radio">Yes</label>
           <label><input name="cats" type="radio">No</label>
         </label>
+
         <label class="input-row">
           What is your favorite color?
           <input name="color" type="color">
         </label>
+
         <label class="input-row">
           What time do you go to bed?
           <input name="sleeptime" type="time">
         </label>
+
         <label class="input-row">
           What are your favorite brand of cars?
           <select name="car-brands" multiple>
@@ -107,6 +115,7 @@
             </option>
           </select>
         </label>
+
         <label class="input-row">
           How do you rate our work?
           <input
@@ -126,6 +135,7 @@
           Comments:
           <textarea name="comments"></textarea>
         </label>
+
         <label class="input-row">
           Would you recommend us?
           <select name="recommend">
